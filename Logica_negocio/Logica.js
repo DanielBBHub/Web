@@ -26,8 +26,8 @@ module.exports = class Logica {
     // insertarPersona() -->
     // .................................................................
     insertar_muestra( datos ) {
-        var textoSQL = "insert into Muestras values(NULL, $muestra, $fecha );"
-        var valoresParaSQL = { $muestra: datos.muestra, $fecha: datos.fecha}
+        var textoSQL = "insert into Muestras values(NULL, $major, $minor );"
+        var valoresParaSQL = { $major: datos.major, $minor: datos.minor}
         return new Promise( (resolver, rechazar) => {
 
             this.laConexion.run( textoSQL, valoresParaSQL, function( err ) {
@@ -40,7 +40,7 @@ module.exports = class Logica {
     // 
     // -->
     // buscar_muestra() -->
-    // datos:{id:int, muestra:text, fecha:DATE}
+    // datos:{id:int, major:text, minor:text}
     // .................................................................
     buscar_muestra() {
         var textoSQL = "SELECT * FROM Muestras ORDER BY id DESC LIMIT 1";
