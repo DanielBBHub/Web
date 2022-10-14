@@ -6,7 +6,7 @@ dirección de la carpeta Logica_negocio como en ServidorREST:
   
 npm install  
   
-Este comando instalara las dependencias de Mocha y SQLite3 para el paquete de Logica de negocio, que es la que se encargara de las consultas a la base de datos,  
+Este comando instalara las dependencias de Mocha y SQLite3 para el paquete de Logica de negocio, que es la que se encargara de las consultas a la base de datos, 
 además de instalar las dependencias de Mocha, CORS, Express, Request y SQLite3
 
 (necesario el uso de los modulos npm y node)
