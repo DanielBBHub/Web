@@ -11,7 +11,8 @@ Este comando instalara las dependencias de Mocha y SQLite3 para el paquete de Lo
 además de instalar las dependencias de Mocha, CORS, Express, Request y SQLite3  
 
 
-(necesario el uso de los modulos npm y node)
+(necesario el uso de los modulos npm y node)  
+
 Para poder hacer servir el servicio del servidor REST, uno se ha de colocar en el directorio ServidorREST y ejecutar en la consola el siguiente comando:  
 
 npm run servidor.  
