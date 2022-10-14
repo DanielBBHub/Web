@@ -19,8 +19,7 @@ npm run servidor.
   
 Este comando se encargara de ejecutar el archivo main_servidor_rest.js, el cual esta escrito para que levante una instancia de Express en el puerto 8080 de la maquina  
   
-En cuanto a la parte de la interfaz de la página, sera necesario que se habilite un puerto HTTP para que desde la página se puedan hacer la petición GET al servidor antes  
-descrito. Para esta tarea, en el tiempo de desarrollo, se ha ejecutado el siguiente comando:  
+En cuanto a la parte de la interfaz de la página, sera necesario que se habilite un puerto HTTP para que desde la página se puedan hacer la petición GET al servidor antes descrito. Para esta tarea, en el tiempo de desarrollo, se ha ejecutado el siguiente comando:  
   
 python -m http.server 8000  
   
