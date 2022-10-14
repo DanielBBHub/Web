@@ -3,7 +3,7 @@
 // .....................................................................
 const express = require( 'express' )
 const bodyParser = require( 'body-parser' )
-const Logica = require( "../logica/Logica.js" )
+const Logica = require( "../Logica_negocio/Logica.js" )
 const cors = require('cors');
 
 
